@@ -1,0 +1,39 @@
+.bar {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.barinter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 120px;
+  margin-left: 15%;
+}
+
+.logo {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.bartext {
+  padding-bottom: 10px;
+  color: #ffc219;
+  text-decoration: none;
+  list-style: none;
+  font-size: 26px;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+.bartext:hover {
+  border-color: #ffc219;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+}
