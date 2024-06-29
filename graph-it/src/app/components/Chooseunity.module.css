@@ -1,0 +1,62 @@
+.unitall {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.unity_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: #ffc219 2px solid;
+  letter-spacing: 6px;
+  font-size: 36px;
+  padding: 20px;
+  background-color: #000;
+  color: #ffc219;
+}
+
+.bg_all {
+  display: flex;
+  flex-direction: row;
+}
+
+.bg_centro {
+  background-image: url(../../../public/bg_centro.png);
+  width: 50vw;
+  height: 78.5vh;
+}
+
+.bg_itaipava {
+  background-image: url(../../../public/bg_itaipava.png);
+  width: 50vw;
+  height: 78.5vh;
+}
+
+.bg_centro,
+.bg_itaipava {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.bg_centro h1,
+.bg_itaipava h1 {
+  color: #ffc219;
+  margin-top: 60px;
+  margin-bottom: 16px;
+  font-size: 42px;
+}
+
+.bg_centro h2,
+.bg_itaipava h2 {
+  color: white;
+  margin-bottom: 32px;
+  font-size: 42px;
+}
+
+.location {
+  width: 80px;
+}

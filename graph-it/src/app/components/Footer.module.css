@@ -1,0 +1,87 @@
+.main_container {
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+
+.sub_container {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title img {
+  width: 200px;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.unities {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.unities img {
+  filter: invert(1);
+}
+
+.unity_decor1 {
+  border-right: #ffc219 1px solid;
+}
+
+.unity_decor1,
+.unity_decor2 {
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.unity_decor1 h2,
+.unity_decor2 h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.unity_decor1 h3,
+.unity_decor2 h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 16px;
+  font-weight: 400;
+}
+
+.unity_decor1 img,
+.unity_decor2 img {
+  height: 26px;
+  height: 26px;
+  margin-top: 16px;
+}
+
+.sub_unity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inter_unity {
+  display: flex;
+  margin-top: 16px;
+}
+
+.sub_unity h3 {
+  font-size: 22px;
+}
+
+.about_price {
+  font-size: 20px;
+  font-weight: 400;
+}

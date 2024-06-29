@@ -1,0 +1,21 @@
+.bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc219;
+    padding: 50px;
+}
+
+.bg h1{
+    font-size: 38px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.bg img{
+    width: 80px;
+    height: 80px;
+}
