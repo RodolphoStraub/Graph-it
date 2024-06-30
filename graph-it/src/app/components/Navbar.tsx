@@ -8,18 +8,15 @@ export default function Navbar() {
     <>
       <div className={styles.bar}>
         <ul className={styles.barinter}>
+          <Link href="#Home">
           <Image
-            className={styles.logo}
-            src="/logo.png"
-            width={130}
-            height={50}
-            alt="logo"
-          ></Image>
-          <li>
-            <Link className={styles.bartext} href="/">
-              Home
-            </Link>
-          </li>
+          className={styles.logo}
+          src="/logo.png"
+          width={130}
+          height={50}
+          alt="logo"
+        ></Image>
+          </Link>
           <li>
             <Link className={styles.bartext} href="/about">
               Quem somos
@@ -28,6 +25,11 @@ export default function Navbar() {
           <li>
             <Link className={styles.bartext} href="/Unities">
               Unidades
+            </Link>
+          </li>
+          <li>
+            <Link className={styles.bartext} href="#Footer">
+              Contato
             </Link>
           </li>
         </ul>

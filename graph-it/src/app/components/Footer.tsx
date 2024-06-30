@@ -1,8 +1,10 @@
 import styles from "./Footer.module.css";
 
+import Link from "next/link";
+
 export default function Footer() {
   return (
-    <div className={styles.main_container}>
+    <div id="Footer" className={styles.main_container}>
       <div className={styles.sub_container}>
         <div className={styles.title}>
           <img src="/icon_logo2.png" alt="logo" />
@@ -44,8 +46,54 @@ export default function Footer() {
         <h2 className={styles.about_price}>
           CADA UNIDADE TEM A SUA PRÓPRIA TABELA DE PREÇO E OPÇÕES DE CURSOS.
         </h2>
-        <div className={styles.icons}>
-            
+        <div className={styles.container_icons}>
+          <div className={styles.sub_icons}>
+            <Link
+              href={"https://www.instagram.com/graphitartesvisuais/"}
+              target="blank"
+            >
+              <img
+                className={styles.icons}
+                src="/icons8-instagram.svg"
+                alt="logo instagram"
+              />
+            </Link>
+          </div>
+          <div className={styles.sub_icons}>
+            <Link
+              href={"https://www.facebook.com/graphitartesvisuais/"}
+              target="blank"
+            >
+              <img
+                className={styles.icons}
+                src="icons8-facebook.svg"
+                alt="logo facebook"
+              />
+            </Link>
+          </div>
+          <div className={styles.sub_icons}>
+            <Link
+              href={
+                "https://www.tiktok.com/@graphitartesvisuais?_t=8lpRdC30ocP&_r=1"
+              }
+              target="blank"
+            >
+              <img
+                className={styles.icons}
+                src="/icons8-tik-tok.svg"
+                alt="logo tik tok"
+              />
+            </Link>
+          </div>
+          <div className={styles.sub_icons}>
+            <Link href={"https://www.youtube.com/@graph-it8961"} target="blank">
+              <img
+                className={styles.icons}
+                src="/icons8-youtube.svg"
+                alt="logo youtube"
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
