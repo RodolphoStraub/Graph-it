@@ -8,7 +8,9 @@ import styles from "./EmblaCarousel.module.css";
 
 export default function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 5000, stopOnInteraction: false }),
+    Autoplay({ delay: 5000, stopOnInteraction: false },
+      
+    ),
   ]);
   return (
     <div className={styles.all}>

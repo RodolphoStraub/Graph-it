@@ -6,6 +6,7 @@
   right: 0px;
   left: 0px;
   box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 100;
 }
 
 .barinter {
@@ -15,6 +16,8 @@
   width: 70%;
   height: 120px;
   margin-left: 15%;
+  list-style: none;
+
 }
 
 .logo {
@@ -26,7 +29,6 @@
   padding-bottom: 10px;
   color: rgb(255, 194, 25);
   text-decoration: none;
-  list-style: none;
   font-size: 26px;
   transition: 0.4s;
   border-bottom: 2px solid transparent;

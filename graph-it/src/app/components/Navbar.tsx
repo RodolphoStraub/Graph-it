@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
       <div className={styles.bar}>
         <ul className={styles.barinter}>
-          <Link href="#Home">
+          <Link href="/">
           <Image
           className={styles.logo}
           src="/logo.png"
