@@ -23,7 +23,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link className={styles.bartext} href="/Unities">
+            <Link className={styles.bartext} href="#Chooseunit">
               Unidades
             </Link>
           </li>

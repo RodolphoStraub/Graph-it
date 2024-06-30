@@ -1,0 +1,36 @@
+.all {
+  height: auto;
+  width: 70%;
+  margin-left: 15%;
+  padding: 100px 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 38px;
+  letter-spacing: 3px;
+  border-bottom: #ffc219 1px solid;
+  padding-bottom: 15px;
+}
+
+.container_text {
+  display: flex;
+  text-align: justify;
+}
+
+.text1 {
+  margin-right: 25px;
+}
+
+.text1 p,
+.text2 p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.italic {
+  font-style: italic;
+}

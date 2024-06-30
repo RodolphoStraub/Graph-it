@@ -13,7 +13,7 @@ export default function Welcome() {
         <h2 className={styles.sub_title}>
           ao mais completo curso de artes visuais
         </h2>
-        <Link href="About">
+        <Link href="/about">
           <button className={styles.button}>CONHEÇA A GENTE</button>
         </Link>
       </div>
