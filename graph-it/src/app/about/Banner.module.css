@@ -1,5 +1,6 @@
 .all {
-    background-image: url(../../../public/banner-quem-somos_alt.png);
-    height: 90vh;
-    margin-top: 100px;
-  }
+  background-image: url(../../../public/banner-quem-somos_alt.png);
+  height: 90vh;
+  margin-top: 100px;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+}
