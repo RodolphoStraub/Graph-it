@@ -1,13 +1,12 @@
 "use client";
 
-import useEmblaCarousel, { EmblaCarouselType } from "embla-carousel-react";
+import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
 import styles from "./EmblaCarousel.module.css";
-import { useCallback, useEffect } from "react";
 
 export default function EmblaCarousel() {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [
+  const [emblaRef] = useEmblaCarousel({ loop: true}, [
     Autoplay({ delay: 4000, stopOnInteraction: false }),
   ]);
   return (
