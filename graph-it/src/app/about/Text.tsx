@@ -6,7 +6,7 @@ export default function Text() {
       <div className={styles.all}>
         <h1 className={styles.title}>Um curso como nenhum outro</h1>
         <div className={styles.container_text}>
-          <p className={styles.text1}>
+          <h2 className={styles.text1}>
             <p>
               O Curso Graph-it foi idealizado em meados de 2009 como um sonho,
               uma utopia, de seus fundadores, Francisco Marques (Chico) e
@@ -28,8 +28,8 @@ export default function Text() {
               Alugaram o local (uma loja no Centro de Petrópolis com 15 m²),
               pegaram um empréstimo e montaram o Curso Graph-it.
             </p>
-          </p>
-          <p className={styles.text2}>
+          </h2>
+          <h2 className={styles.text2}>
             <p>
               Hoje o Curso Graph-it conta com duas Unidades, uma no Centro de
               Petrópolis com 60 m² e uma em Itaipava. Ambas com ambientes
@@ -50,7 +50,7 @@ export default function Text() {
               de sucesso, e o mais importante, mantendo sempre o mesmo amor pelo
               que fazemos.
             </p>
-          </p>
+          </h2>
         </div>
       </div>
     </>

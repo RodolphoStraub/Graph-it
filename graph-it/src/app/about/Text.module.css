@@ -2,7 +2,9 @@
   height: auto;
   width: 70%;
   margin-left: 15%;
-  padding: 100px 0;
+  padding: 100px 0 10px;
+  border-bottom: #ffc219 1px solid;
+
 }
 
 .title {

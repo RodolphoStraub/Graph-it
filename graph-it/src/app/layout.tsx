@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import './components/Navbar.module.css'
+import "./components/Navbar.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,14 +20,22 @@ export default function RootLayout({
 }>) {
   return (
     <>
-    <html lang="pt-br">
-      <body className={inter.className}>
-        <Navbar/>
-        {children}
-        <Footer/>
+      <html lang="pt-br">
+        <head>
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+          <link
+            rel="icon"
+            href="/icon?<generated>"
+            type="image/<generated>"
+            sizes="<generated>"
+          />
+        </head>
+        <body className={inter.className}>
+          <Navbar />
+          {children}
+          <Footer />
         </body>
-
-    </html>
+      </html>
     </>
   );
 }
