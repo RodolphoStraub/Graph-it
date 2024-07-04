@@ -1,7 +1,6 @@
 .main_container {
   background-color: black;
   color: white;
-  margin-top: 50px;
 }
 
 .sub_container {
@@ -101,6 +100,6 @@
 }
 
 .icons:hover {
-    transform: scale(1.1);
-    filter: invert(27%) sepia(10%) saturate(2878%);
+  transform: scale(1.1);
+  filter: invert(27%) sepia(10%) saturate(2878%);
 }

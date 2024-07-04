@@ -1,0 +1,90 @@
+.all {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(236, 236, 235);
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.sub_all {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.title {
+  width: 550px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title_decor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.color {
+  color: #ffc219;
+}
+
+.sub_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-bottom: #ffc219 2px solid;
+}
+
+.pic {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.descrition{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.descrition_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ffcd43;
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.descrition_box p{
+    margin-top: 10px;
+}
+
+.year{
+    border-bottom: black 2px solid;
+}
+
+.descrition_box:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
