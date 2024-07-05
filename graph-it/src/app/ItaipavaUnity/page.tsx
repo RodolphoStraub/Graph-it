@@ -1,6 +1,7 @@
 import styles from "./Banner.module.css";
 import Computacao from "./Computacao";
 import Desenho from "./Desenho";
+import Fotografia from "./Fotografia";
 import KnowUs from "./KnowUs";
 
 export default function Page() {
@@ -10,6 +11,7 @@ export default function Page() {
       <KnowUs/>
       <Desenho/>
       <Computacao/>
+      <Fotografia/>
     </>
   );
 }

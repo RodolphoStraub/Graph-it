@@ -1,19 +1,19 @@
-import styles from "./Desenho.module.css";
+import styles from "./Fotografia.module.css";
 import Link from "next/link";
 
-export default function Desenho() {
+export default function Fotografia() {
   return (
     <div className={styles.all}>
       <div className={styles.sub_all}>
-        <div>
+      <div>
           <img
             className={styles.pic}
-            src="/img_desenho.png"
+            src="/img_fotografia.png"
             alt="menina desenhando"
           />
         </div>
         <div className={styles.context}>
-          <img src="/logo_desenho_artistico.png" alt="logo desenho" />
+          <img src="/logo_fotografia.png" alt="logo desenho" />
           <p>
             Aprender a desenhar é uma habilidade técnica que desbloqueia um
             mundo de possibilidades criativas e expressivas. É um processo que
@@ -23,7 +23,7 @@ export default function Desenho() {
             da observação, concentração, coordenação motora e resolução de
             problemas visuais.
           </p>
-          <Link href="/desenhoartistico">
+          <Link href="/fotografiaitaipava">
             <button className={styles.button}>clique e saiba mais</button>
           </Link>
         </div>

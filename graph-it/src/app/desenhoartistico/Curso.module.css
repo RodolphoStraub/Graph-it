@@ -1,0 +1,28 @@
+.all {
+  height: 90vh;
+  background-image: url(../../../public/bg-desenhoartistico.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.container {
+  width: 700px;
+  margin-left: 50%;
+  margin-top: 160px;
+}
+
+.title {
+  font-size: 68px;
+  margin-bottom: 50px;
+  font-weight: 350;
+}
+
+.context {
+  width: 550px;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: justify;
+  text-justify: inter-word;
+}
