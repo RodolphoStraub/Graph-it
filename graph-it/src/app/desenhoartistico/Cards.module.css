@@ -1,0 +1,50 @@
+.all {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.title,
+.sub_title {
+  color: #ffc219;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 52px;
+}
+
+.sub_title {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.description {
+  font-size: 28px;
+}
+
+.cards_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.cards {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards:hover{
+    transform: scale(1.15);
+    transition: 0.8s;
+}
