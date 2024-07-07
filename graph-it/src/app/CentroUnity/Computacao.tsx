@@ -8,19 +8,20 @@ export default function Computacao() {
         <div className={styles.context}>
           <img src="/logo_computacao_grafica.png" alt="logo desenho" />
           <p>
-            Aprender a desenhar é uma habilidade técnica que desbloqueia um
-            mundo de possibilidades criativas e expressivas. É um processo que
-            envolve compreender os princípios fundamentais da composição,
-            proporção, perspectiva, luz e sombra, entre outros elementos. Além
-            disso, o desenho oferece benefícios cognitivos, como o aprimoramento
-            da observação, concentração, coordenação motora e resolução de
-            problemas visuais.
+            Aprender computação gráfica e ilustração digital é uma jornada
+            extraordinária que combina habilidades técnicas com a liberdade de
+            expressão artística. Ao dominar as ferramentas digitais, somos
+            capazes de criar mundos inteiros a partir do nada, dando vida a
+            personagens, paisagens e cenários que só existiam em nossa
+            imaginação. Além do conhecimento nescessário para trabalhar e se
+            desenvolver profissionalmente nessa área. mergulhe nessa jornada e
+            descubra o poder da arte digital.
           </p>
-          <Link href="/computacaograficacentro">
+          <Link href="/computacaografica">
             <button className={styles.button}>clique e saiba mais</button>
           </Link>
         </div>
-      <div>
+        <div>
           <img
             className={styles.pic}
             src="/img_computacao.png"

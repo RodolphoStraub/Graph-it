@@ -5,7 +5,7 @@
 
 .sub_container {
   width: 70%;
-  margin-left: 15%;
+  margin-left: 13%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,14 +13,14 @@
 }
 
 .title img {
-  width: 200px;
+  width: 210px;
   height: auto;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .unities {
-  width: 70vw;
+  margin-left: 78px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -38,21 +38,32 @@
 
 .unity_decor1,
 .unity_decor2 {
-  padding: 50px;
-  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+.unity_decor1{
+  padding: 0 60px 0 0;
+}
+
+.unity_decor2{
+  padding: 0 0 0 60px;
 }
 
 .unity_decor1 h2,
 .unity_decor2 h2 {
-  font-size: 32px;
+  font-size: 36px;
   margin-bottom: 16px;
   font-weight: 700;
 }
 
 .unity_decor1 h3,
 .unity_decor2 h3 {
-  font-size: 20px;
-  letter-spacing: 2px;
+  font-size: 22px;
+  letter-spacing: 4px;
   margin-top: 16px;
   font-weight: 400;
 }
@@ -77,26 +88,27 @@
 }
 
 .sub_unity h3 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .about_price {
+  margin-top: 40px;
   font-size: 20px;
   font-weight: 400;
 }
 
 .container_icons {
   width: 1000px;
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .icons {
-  width: 46px;
-  height: 46px;
+  width: 42px;
+  height: 42px;
 }
 
 .icons:hover {

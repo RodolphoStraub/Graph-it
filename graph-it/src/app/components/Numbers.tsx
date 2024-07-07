@@ -16,7 +16,7 @@ export default function Nymbers() {
             <div className={styles.inner_card}>
               <img className={styles.img} src="/icon_calendario.png" />
               <h1>15 ANOS</h1>
-              <p>DE MERDCADO</p>
+              <p>DE MERCADO</p>
             </div>
             <div className={styles.inner_card}>
               <img className={styles.img} src="/icon_cursos.png" />

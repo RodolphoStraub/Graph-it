@@ -4,7 +4,7 @@ export default function Curso() {
   return (
     <div className={styles.all}>
       <div className={styles.container}>
-        <h1 className={styles.title}>Por que fazer um curso de arte?</h1>
+        <h1 className={styles.title}>Curso de arte</h1>
         <p className={styles.context}>
           Aprender arte é muito mais que simplesmente desenhar ou pintar. Um
           curso de artes promove o bem estar, aumenta a auto estima, aumenta a

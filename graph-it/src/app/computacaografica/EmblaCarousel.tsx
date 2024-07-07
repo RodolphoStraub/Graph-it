@@ -20,22 +20,22 @@ export default function EmblaCarousel() {
           <div className={styles.embla__container}>
             <div className={styles.embla__slide}>
               <div className={styles.pic_name}>
-                <img src="/desenho1.jpg" alt="desenho1" />
+                <img src="/comp1.jpg" alt="desenho1" />
               </div>
             </div>
             <div className={styles.embla__slide}>
               <div className={styles.pic_name}>
-                <img src="/desenho2.jpg" alt="desenho2" />
+                <img src="/comp5.jpg" alt="desenho2" />
               </div>
             </div>
             <div className={styles.embla__slide}>
               <div className={styles.pic_name}>
-                <img src="/desenho3.jpg" alt="desenho3" />
+                <img src="/comp6.jpg" alt="desenho3" />
               </div>
             </div>
             <div className={styles.embla__slide}>
               <div className={styles.pic_name}>
-                <img src="/desenho4.jpg" alt="desenho4" />
+                <img src="/comp4.jpg" alt="desenho4" />
               </div>
             </div>
           </div>

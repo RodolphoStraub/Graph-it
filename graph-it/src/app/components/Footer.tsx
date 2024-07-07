@@ -29,7 +29,8 @@ export default function Footer() {
           <div className={styles.unity_decor2}>
             <h2>ITAIPAVA - PETRÓPOLIS - RJ</h2>
             <h3>
-              Ed. Marchese - Rua do Imperador, nº 772 slj 21 e 23, CEP 25620-001
+              Shopping 2000, Estrada União e Indústria, n° 11590 A, loja 05, CEP
+              25730-745
             </h3>
             <div className={styles.sub_unity}>
               <div className={styles.inter_unity}>

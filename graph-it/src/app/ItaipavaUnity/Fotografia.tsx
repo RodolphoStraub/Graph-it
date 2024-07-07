@@ -5,7 +5,7 @@ export default function Fotografia() {
   return (
     <div className={styles.all}>
       <div className={styles.sub_all}>
-      <div>
+        <div>
           <img
             className={styles.pic}
             src="/img_fotografia.png"
@@ -15,13 +15,12 @@ export default function Fotografia() {
         <div className={styles.context}>
           <img src="/logo_fotografia.png" alt="logo desenho" />
           <p>
-            Aprender a desenhar é uma habilidade técnica que desbloqueia um
-            mundo de possibilidades criativas e expressivas. É um processo que
-            envolve compreender os princípios fundamentais da composição,
-            proporção, perspectiva, luz e sombra, entre outros elementos. Além
-            disso, o desenho oferece benefícios cognitivos, como o aprimoramento
-            da observação, concentração, coordenação motora e resolução de
-            problemas visuais.
+            Nosso curso oferece uma combinação única de teoria e prática, onde
+            você aprenderá as técnicas fundamentais da fotografia digital e as
+            habilidades necessárias para capturar momentos incríveis. Desde os
+            princípios básicos, como exposição, composição e foco, até técnicas
+            avançadas de iluminação, tratamento de imagem e edição, forneceremos
+            todo o conhecimento necessário para criar imagens deslumbrantes.
           </p>
           <Link href="/fotografiaitaipava">
             <button className={styles.button}>clique e saiba mais</button>
