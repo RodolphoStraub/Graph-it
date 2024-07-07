@@ -85,6 +85,7 @@
 .inter_unity {
   display: flex;
   margin-top: 16px;
+  padding: 0 15px;
 }
 
 .sub_unity h3 {
