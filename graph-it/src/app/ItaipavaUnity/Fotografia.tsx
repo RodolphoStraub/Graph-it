@@ -22,7 +22,7 @@ export default function Fotografia() {
             avançadas de iluminação, tratamento de imagem e edição, forneceremos
             todo o conhecimento necessário para criar imagens deslumbrantes.
           </p>
-          <Link href="/fotografiaitaipava">
+          <Link href="/fotografia">
             <button className={styles.button}>clique e saiba mais</button>
           </Link>
         </div>

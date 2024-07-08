@@ -1,0 +1,135 @@
+.all {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0 25px 0;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 350;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sub_container1,
+.sub_container2,
+.sub_container3,
+.sub_container4,
+.sub_container5 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(41, 41, 41);
+  cursor: pointer;
+  border: 3px solid #ffc219;
+}
+
+.sub_container1 {
+  background-image: url(../../../public/cameraantiga.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub_container2 {
+  background-image: url(../../../public/diafragma.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub_container3 {
+  background-image: url(../../../public/fotometria.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub_container4 {
+  background-image: url(../../../public/fotluz.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub_container5 {
+  background-image: url(../../../public/fotoaulapratica.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub_container1 h1,
+.sub_container2 h1,
+.sub_container3 h1,
+.sub_container4 h1,
+.sub_container5 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #ffc219;
+  display: none;
+}
+
+.sub_container1 p,
+.sub_container2 p,
+.sub_container3 p,
+.sub_container4 p,
+.sub_container5 p {
+  text-align: justify;
+  font-size: 22px;
+  color: white;
+  display: none;
+}
+
+.sub_container1:hover,
+.sub_container2:hover,
+.sub_container3:hover,
+.sub_container4:hover,
+.sub_container5:hover {
+  background-image: url(../../../public/bg-foto.png);
+}
+
+.sub_container1:hover p,
+.sub_container1:hover h1 {
+  display: block;
+}
+
+.sub_container2:hover p,
+.sub_container2:hover h1 {
+  display: block;
+}
+
+.sub_container3:hover p,
+.sub_container3:hover h1 {
+  display: block;
+}
+
+.sub_container4:hover p,
+.sub_container4:hover h1 {
+  display: block;
+}
+
+.sub_container5:hover p,
+.sub_container5:hover h1 {
+  display: block;
+}
+
+.sub_container1:hover,
+.sub_container2:hover,
+.sub_container3:hover,
+.sub_container4:hover,
+.sub_container5:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
