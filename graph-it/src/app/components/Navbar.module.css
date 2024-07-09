@@ -17,21 +17,23 @@
   height: 120px;
   margin-left: 15%;
   list-style: none;
-
 }
 
 .logo {
   margin-bottom: 20px;
   cursor: pointer;
+  width: 160px;
+  height: auto;
 }
 
 .bartext {
-  padding-bottom: 10px;
-  color: #ffc219;
+  padding-bottom: 8px;
+  color: white;
   text-decoration: none;
   font-size: 26px;
   transition: 0.4s;
   border-bottom: 2px solid transparent;
+  text-transform: uppercase;
 }
 
 .bartext:hover {

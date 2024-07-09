@@ -1,5 +1,5 @@
 .all {
-  background-image: url(../../../public/bg-foto.png);
+  background-image: url(../../../public/bg-designkids2.png);
   height: 100vh;
 }
 
@@ -19,11 +19,17 @@
 }
 
 .title {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-size: 66px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   font-weight: 350;
   padding: 50px 0 0;
-  color: #ffc219;
+  color: white;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -36,7 +42,7 @@
 }
 
 .context h2 {
-  color: #ffc219;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +52,7 @@
 
 .context p {
   width: 600px;
-  color: white;
+  color: black;
   padding: 20px;
   line-height: 38px;
   margin-left: 25px;
