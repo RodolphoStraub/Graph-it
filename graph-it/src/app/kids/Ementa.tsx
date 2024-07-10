@@ -7,72 +7,65 @@ export default function Ementa() {
         <h1>Ementa</h1>
       </div>
       <div className={styles.container}>
-        <div className={styles.teste}>
-          <div className={styles.sub_container1}>
-            <h2>
-              <i className={styles.arrow}></i>
-            </h2>
-            <h1>História e Evolução da Fotografia</h1>
-            <p>
-              Breve história da Fotografia, com orientação sobre a evolução da
-              fotografia até a era digital.
-              <br /> Além de explicação sobre equipamentos, tipos de câmera e
-              lentes.
-            </p>
-          </div>
-          <div className={styles.sub_container2}>
-            <h2>
-              <i className={styles.arrow}></i>
-            </h2>
-            <h1>
-              Obturador/
-              <br />
-              Diafragma e ISO
-            </h1>
-            <p>
-              Técnica básica sobre como funciona a câmera fotográfica moderna,
-              obturador, diafragma e ISO, através de exemplos práticos e análise
-              de imagens.
-            </p>
-          </div>
-          <div className={styles.sub_container3}>
-            <h2>
-              <i className={styles.arrow}></i>
-            </h2>
-            <h1>Fotometria, Histograma e Histograma Externo</h1>
-            <p>
-              Nessa parte do curso o aluno irá ver as técnicas básicas sobre
-              Fotometria, histograma e histograma RGB. Além de teoria das cores
-              e balanço de branco. Assim como a resolução, Megapixels e Formatos
-              de arquivo.
-            </p>
-          </div>
+        <div className={styles.sub_container1}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Fundamentos do desenho e da pintura</h1>
+          <p>
+            Nesta fase você vai aprender os fundamentos do desenho e da pintura.
+            Veremos esboço com formas básicas,como contornar corretamente o seu
+            desenho e como pintá-lo corretamente com lápis de cor.
+          </p>
         </div>
-        <div className={styles.teste2}>
-          <div className={styles.sub_container4}>
-            <h2>
-              <i className={styles.arrow}></i>
-            </h2>
-            <h1>Interpretanto a Luz, Características e Efeitos</h1>
-            <p>
-              Iluminação básica: Controlando e modificando a luz natural
-              <br />
-              Iluminação básica: Utilizando o flash como fonte de luz adicional
-            </p>
-          </div>
-          <div className={styles.sub_container5}>
-            <h2>
-              <i className={styles.arrow}></i>
-            </h2>
-            <h1>Aulas Práticas</h1>
-            <p>
-              O curso é composto por 2 aulas práticas, sendo uma em ambiente
-              externo e outra em ambiente interno.
-              <br /> Nas aulas práticas o curso tem o objetivo de mostrar como
-              trabalhar com a variação de iluminação e velocidade. Dando a
-              oportunidade para o aluno aplicar toda a teoria da sala de aula.
-            </p>
-          </div>
+        <div className={styles.sub_container2}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Mais técnicas, mais cool</h1>
+          <p>
+            Nesta fase começaremos a ver técnicas mais avançadas, como
+            construção de rosto e corpo, contorno com hierarquia e sombra na
+            pintura.
+          </p>
+        </div>
+        <div className={styles.sub_container3}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Hora da tinta</h1>
+          <p>
+            Nesta fase vamos conhecer o incrível mundo da tinta, desde as tintas
+            e os pincéis até fazermos telas completas.
+          </p>
+        </div>
+
+        <div className={styles.sub_container4}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Aquarela</h1>
+          <p>
+            Nesta fase vamos aprender a utilizar uma tinta com características
+            únicas.
+          </p>
+        </div>
+        <div className={styles.sub_container5}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Sua excelência, O Grafite</h1>
+          <p>
+            Nesta fase nós vamos aprender a utilizar a mais eficiente, dinâmica,
+            versátil e ágil ferramenta de desenho.
+          </p>
+        </div>
+        <div className={styles.sub_container6}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Conhecendo os grandes mestres</h1>
+          <p>Nesta fase, para cada grande mestre você terá um desafio.</p>
         </div>
       </div>
     </div>

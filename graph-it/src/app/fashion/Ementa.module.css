@@ -13,26 +13,21 @@
   font-weight: 350;
 }
 
-.teste {
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-
-.teste2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 840px;
-  margin-left: 18%;
 }
 
 .sub_container1,
 .sub_container2,
 .sub_container3,
 .sub_container4,
-.sub_container5 {
+.sub_container5,
+.sub_container6,
+.sub_container7,
+.sub_container8,
+.sub_container9 {
   width: 400px;
   height: 400px;
   display: flex;
@@ -47,37 +42,56 @@
   cursor: pointer;
 }
 
-.sub_container4,
-.sub_container5 {
-  padding: 20px;
-}
-
 .sub_container1 {
-  background-image: url(../../../public/cameraantiga.jpg);
+  background-image: url(../../../public/ementaart1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .sub_container2 {
-  background-image: url(../../../public/diafragma.jpg);
+  background-image: url(../../../public/ementafashion2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .sub_container3 {
-  background-image: url(../../../public/fotometria.jpg);
+  background-image: url(../../../public/ementafashion3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .sub_container4 {
-  background-image: url(../../../public/fotluz.jpg);
+  background-image: url(../../../public/ementafashion4.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .sub_container5 {
-  background-image: url(../../../public/fotoaulapratica.jpg);
+  background-image: url(../../../public/ementafashion5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub_container6 {
+  background-image: url(../../../public/ementafashion6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub_container7 {
+  background-image: url(../../../public/ementafashion7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub_container8 {
+  background-image: url(../../../public/ementafashion8.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sub_container9 {
+  background-image: url(../../../public/ementafashion9.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -86,7 +100,11 @@
 .sub_container2 h1,
 .sub_container3 h1,
 .sub_container4 h1,
-.sub_container5 h1 {
+.sub_container5 h1,
+.sub_container6 h1,
+.sub_container7 h1,
+.sub_container8 h1,
+.sub_container9 h1 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 32px;
@@ -98,7 +116,11 @@
 .sub_container2 p,
 .sub_container3 p,
 .sub_container4 p,
-.sub_container5 p {
+.sub_container5 p,
+.sub_container6 p,
+.sub_container7 p,
+.sub_container8 p,
+.sub_container9 p {
   text-align: justify;
   font-size: 22px;
   color: white;
@@ -109,7 +131,11 @@
 .sub_container2:hover,
 .sub_container3:hover,
 .sub_container4:hover,
-.sub_container5:hover {
+.sub_container5:hover,
+.sub_container6:hover,
+.sub_container7:hover,
+.sub_container8:hover,
+.sub_container9:hover {
   background-image: url(../../../public/bg-foto.png);
   border: 3px solid #ffc219;
 }
@@ -139,11 +165,35 @@
   display: block;
 }
 
+.sub_container6:hover p,
+.sub_container6:hover h1 {
+  display: block;
+}
+
+.sub_container7:hover p,
+.sub_container7:hover h1 {
+  display: block;
+}
+
+.sub_container8:hover p,
+.sub_container8:hover h1 {
+  display: block;
+}
+
+.sub_container9:hover p,
+.sub_container9:hover h1 {
+  display: block;
+}
+
 .sub_container1:hover,
 .sub_container2:hover,
 .sub_container3:hover,
 .sub_container4:hover,
-.sub_container5:hover {
+.sub_container5:hover,
+.sub_container6:hover,
+.sub_container7:hover,
+.sub_container8:hover,
+.sub_container9:hover {
   transition: 0.3s;
   transform: scale(1.05);
 }
@@ -152,7 +202,11 @@
 .sub_container2 h2,
 .sub_container3 h2,
 .sub_container4 h2,
-.sub_container5 h2 {
+.sub_container5 h2,
+.sub_container6 h2,
+.sub_container7 h2,
+.sub_container8 h2,
+.sub_container9 h2 {
   margin-top: 300px;
   border: solid #ffc219;
   border-width: 0 6px 6px 0;
@@ -167,6 +221,10 @@
 .sub_container2:hover h2,
 .sub_container3:hover h2,
 .sub_container4:hover h2,
-.sub_container5:hover h2 {
+.sub_container5:hover h2,
+.sub_container6:hover h2,
+.sub_container7:hover h2,
+.sub_container8:hover h2,
+.sub_container9:hover h2 {
   display: none;
 }
