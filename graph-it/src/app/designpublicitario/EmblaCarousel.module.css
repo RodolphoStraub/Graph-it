@@ -1,0 +1,66 @@
+.all {
+  margin-top: 50px;
+  background-color: rgb(236, 236, 235);
+}
+
+.sub_all {
+  width: 70%;
+  height: 600px;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title_decor {
+  font-size: 38px;
+  font-weight: 450;
+  font-weight: 600;
+  
+}
+
+.embla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.embla__container {
+  display: flex;
+  width: 58vw;
+  margin-left: 35px;
+}
+
+.embla__slide {
+  width: 100px;
+  display: flex;
+  flex: 0 0 40%;
+  padding: 25px;
+}
+
+.pic_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic_name img{
+  width: 350px;
+  height: 350px;
+}
+
+.pic_name img {
+  border-radius: 10px;
+}
