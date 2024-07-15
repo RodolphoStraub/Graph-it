@@ -11,70 +11,88 @@ export default function Ementa() {
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Introdução ao Desenho</h1>
+          <h1>Criação de Objetos Básicos</h1>
           <p>
-            Nesta etapa do curso você vai aprender sobre a história do desenho,
-            os principais materiais e ferramentas necessários para o desenho e
-            técnicas básicas de observação e desenho.
+            Iniciando nossos estudos, aprenderemos como configurar e navegar
+            pelo programa, veremos também como criar formas básicas e
+            manipulá-las.
           </p>
         </div>
         <div className={styles.sub_container2}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Técnicas de Desenho</h1>
+          <h1>Modelagem com Linhas</h1>
           <p>
-            Nesta etapa vamos aprender técnicas de linhas e traços, manchas, uso
-            de sombra e luz para criar profundidade e volume,composição e
-            enquadramento de imagens e desenho de objetos em diferentes ângulos
-            e posições.
+            Agora que sabemos como criar formas, vamos ver um método diferente,
+            baseado em linhas para criar nossas formas, ideal para objetos
+            simétricos e com curvas muito acentuadas.
           </p>
         </div>
         <div className={styles.sub_container3}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Desenho de Retratos</h1>
+          <h1>Modelagem Poligonal</h1>
           <p>
-            Nesta etapa nós vamos aprender anatomia básica da cabeça e
-            proporções faciais, Detalhes do rosto, Técnicas de retratos, Uso de
-            luz e sombra, enquadramento e composição e retratos realistas.
+            Nessa etapa aprenderemos a usar polígonos editáveis, formas essas
+            que podemos modelar mais livremente, movendo individualmente suas
+            quinas, areas e faces.
           </p>
         </div>
         <div className={styles.sub_container4}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Paisagens</h1>
+          <h1>Criação de Personagens</h1>
           <p>
-            Nesta etapa nós vamos aprender a criar profundidade e perspectiva em
-            paisagens (árvores, montanhas, rochas e vegetação) e estudos de
-            enquadramento e composição.
+            Com as principais ferramentas de modelagem dominadas, vamos
+            colocá-las em prática! Nessa etapa vamos criar um personagem do
+            zero, desde o corpo até as roupas, cabelo e acessórios.
           </p>
         </div>
         <div className={styles.sub_container5}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Criação de Personagens</h1>
+          <h1>Pintura e Texturização</h1>
           <p>
-            Nesta etapa nós vamos aprender sobre anatomia básica do corpo
-            humano, proporções, desenho de rosto, mãos e pés, criação de
-            personagens básicos ( heróis, vilões e coadjuvantes), luz e sombra,
-            gestos e poses, anatomia avançada, roupas e acessórios.
+            Vamos adicionar cores ao nosso personagem, veremos também como criar
+            e aplicar texturas ao nosso personagem e outros objetos
           </p>
         </div>
         <div className={styles.sub_container6}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Perspectiva</h1>
+          <h1>Rig e Controladores de Movimentos</h1>
           <p>
-            Nesta etapa você vai aprender sobre ponto de fuga e linha do
-            horizonte, perspectiva paralela (1 ponto de fuga), perspectiva
-            oblíqua (2 pontos de fuga), perspectiva aérea/esgoto (3 pontos de
-            fuga), perspectiva cavaleira, perspectiva do arquiteto e luz e
-            sombra em perspectiva.
+            Nessa etapa vamos criar um esqueleto para o nosso personagem.
+            Através de ossos e controladores, faremos com que o personagem seja
+            animável e responsivo.
+          </p>
+        </div>
+        <div className={styles.sub_container6}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Animação de Personagens</h1>
+          <p>
+            Nosso personagem está pronto para ser animado! Aqui entenderemos
+            como funciona o sistema de linha do tempo para criar animações de
+            nosso personagem, veremos também como exportar essa animação para um
+            formato adequado.
+          </p>
+        </div>
+        <div className={styles.sub_container6}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Projeto Final</h1>
+          <p>
+            Para finalizar nossos estudos, o aluno deve criar um novo personagem
+            e fazer uma animação do mesmo, utilizando as ferramentas e técnicas
+            que aprendemos durante o curso.
           </p>
         </div>
       </div>

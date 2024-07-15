@@ -11,70 +11,65 @@ export default function Ementa() {
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Introdução ao Desenho</h1>
+          <h1>Pintura Blocada</h1>
           <p>
-            Nesta etapa do curso você vai aprender sobre a história do desenho,
-            os principais materiais e ferramentas necessários para o desenho e
-            técnicas básicas de observação e desenho.
+            Nessa etapa vamos aprender a gerar volumetria em nossos desenhos
+            através de luz e sombra. Veremos suas aplicações e comportamentos,
+            resultando em desenhos mais realistas.
           </p>
         </div>
         <div className={styles.sub_container2}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Técnicas de Desenho</h1>
+          <h1>Degradé</h1>
           <p>
-            Nesta etapa vamos aprender técnicas de linhas e traços, manchas, uso
-            de sombra e luz para criar profundidade e volume,composição e
-            enquadramento de imagens e desenho de objetos em diferentes ângulos
-            e posições.
+            Aqui faremos um sombreamento mais realista através de degradês,
+            gerando diferença nos níveis de luz e sombra para uma pintura ainda
+            mais realista.
           </p>
         </div>
         <div className={styles.sub_container3}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Desenho de Retratos</h1>
+          <h1>Line-art</h1>
           <p>
-            Nesta etapa nós vamos aprender anatomia básica da cabeça e
-            proporções faciais, Detalhes do rosto, Técnicas de retratos, Uso de
-            luz e sombra, enquadramento e composição e retratos realistas.
+            Nessa etapa vamos focar em melhorar o nosso controle de traço e
+            aprender sobre line-art e seus acabementos, processo esse que
+            fazemos finalizações em nosso esboço inicial.
           </p>
         </div>
         <div className={styles.sub_container4}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Paisagens</h1>
+          <h1>Esboço e Anatomia</h1>
           <p>
-            Nesta etapa nós vamos aprender a criar profundidade e perspectiva em
-            paisagens (árvores, montanhas, rochas e vegetação) e estudos de
-            enquadramento e composição.
+            Aqui vamos aprender a esboçar personagens do zero. Falaremos sobre a
+            proporção do corpo, divisão do rosto e anatomia para criar
+            personagens mais realistas.
           </p>
         </div>
         <div className={styles.sub_container5}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Criação de Personagens</h1>
+          <h1>Cenários</h1>
           <p>
-            Nesta etapa nós vamos aprender sobre anatomia básica do corpo
-            humano, proporções, desenho de rosto, mãos e pés, criação de
-            personagens básicos ( heróis, vilões e coadjuvantes), luz e sombra,
-            gestos e poses, anatomia avançada, roupas e acessórios.
+            Nessa etapa criaremos cenários considerando profundidade de campo e
+            perspectiva, além da criação de pincéis customizados.
           </p>
         </div>
         <div className={styles.sub_container6}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Perspectiva</h1>
+          <h1>Ilustração Realista</h1>
           <p>
-            Nesta etapa você vai aprender sobre ponto de fuga e linha do
-            horizonte, perspectiva paralela (1 ponto de fuga), perspectiva
-            oblíqua (2 pontos de fuga), perspectiva aérea/esgoto (3 pontos de
-            fuga), perspectiva cavaleira, perspectiva do arquiteto e luz e
-            sombra em perspectiva.
+            Para fechar nossos estudos, faremos uma ilustração realista, onde
+            todos os volumes e divisões são feitos através de luz e sombra,
+            também abordaremos texturas e zonas de cor.
           </p>
         </div>
       </div>

@@ -11,70 +11,92 @@ export default function Ementa() {
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Introdução ao Desenho</h1>
+          <h1>Vetorização</h1>
           <p>
-            Nesta etapa do curso você vai aprender sobre a história do desenho,
-            os principais materiais e ferramentas necessários para o desenho e
-            técnicas básicas de observação e desenho.
+            Começamos o curso aprendendo a vetorizar no Illustrator, processo
+            esse que nos permite desenhar qualquer figura de forma vetorial,
+            garantindo uma qualidade de imagem excelente.
           </p>
         </div>
         <div className={styles.sub_container2}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Técnicas de Desenho</h1>
+          <h1>Identidade Visual</h1>
           <p>
-            Nesta etapa vamos aprender técnicas de linhas e traços, manchas, uso
-            de sombra e luz para criar profundidade e volume,composição e
-            enquadramento de imagens e desenho de objetos em diferentes ângulos
-            e posições.
+            Nessa etapa criaremos identidades visuais completas, abordando todas
+            as etapas do processo, como brainstorming, criação da logo, escolha
+            e justificação das cores e textos até às aplicações da marca, com
+            versões monocráticas e de luxo.
           </p>
         </div>
         <div className={styles.sub_container3}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Desenho de Retratos</h1>
+          <h1>Layouts</h1>
           <p>
-            Nesta etapa nós vamos aprender anatomia básica da cabeça e
-            proporções faciais, Detalhes do rosto, Técnicas de retratos, Uso de
-            luz e sombra, enquadramento e composição e retratos realistas.
+            Aqui aprenderemos a diagramar layouts, ferramenta essa que nos
+            permite transmitir uma mensagem com uma organização harmônica entre
+            formas e textos.
           </p>
         </div>
         <div className={styles.sub_container4}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Paisagens</h1>
+          <h1>Montagem Fotográfica</h1>
           <p>
-            Nesta etapa nós vamos aprender a criar profundidade e perspectiva em
-            paisagens (árvores, montanhas, rochas e vegetação) e estudos de
-            enquadramento e composição.
+            Passando agora para o Photoshop, aprenderemos como recortar imagens
+            e utilizá-las em diferentes contextos, dando um novo significado à
+            nossa cena.
           </p>
         </div>
         <div className={styles.sub_container5}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Criação de Personagens</h1>
+          <h1>Tratamento</h1>
           <p>
-            Nesta etapa nós vamos aprender sobre anatomia básica do corpo
-            humano, proporções, desenho de rosto, mãos e pés, criação de
-            personagens básicos ( heróis, vilões e coadjuvantes), luz e sombra,
-            gestos e poses, anatomia avançada, roupas e acessórios.
+            Com os recortes dominados, aprenderemos como adequar nossos recortes
+            na cena e correções como remover manchas e espinhas, ajustes de
+            níveis, cores e retoques.
           </p>
         </div>
         <div className={styles.sub_container6}>
           <h2>
             <i className={styles.arrow}></i>
           </h2>
-          <h1>Perspectiva</h1>
+          <h1>Pintura Digital</h1>
           <p>
-            Nesta etapa você vai aprender sobre ponto de fuga e linha do
-            horizonte, perspectiva paralela (1 ponto de fuga), perspectiva
-            oblíqua (2 pontos de fuga), perspectiva aérea/esgoto (3 pontos de
-            fuga), perspectiva cavaleira, perspectiva do arquiteto e luz e
-            sombra em perspectiva.
+            Vamos ver também o processo de pintura no Photoshop, desde o
+            processo de chapar cores, até o sombreamento e finalizações. O
+            conhecimento de pintura nos auxilia no entendimento e posicionamento
+            de sombras, além de criar novas possibilidades para ajustes e
+            tratamentos.
+          </p>
+        </div>
+        <div className={styles.sub_container6}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Layouts Avançados</h1>
+          <p>
+            Voltamos a falar de layouts, dessa vez usando as ferramentas que o
+            Photoshop nos proporciona como recortes, tratamentos e efeitos
+            especiais automáticos.
+          </p>
+        </div>
+        <div className={styles.sub_container6}>
+          <h2>
+            <i className={styles.arrow}></i>
+          </h2>
+          <h1>Projeto Final</h1>
+          <p>
+            Para finalizarmos nossos estudos, o aluno irá criar uma identidade
+            visual completa, desde a ideia e o símbolo até as aplicações através
+            de mockups e montagens, mostrando como a logo seria usada na
+            prática.
           </p>
         </div>
       </div>
