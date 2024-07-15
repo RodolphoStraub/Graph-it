@@ -18,7 +18,8 @@ export default function Vantagem() {
           <h2>(2h / semana)</h2>
           <h2>(a partir dos 12 anos de idade)</h2>
           <h2>Mensalidade:</h2>
-          <h2>R$270,00 + R$85,00 da matrícula</h2>
+          <h2>Centro - R$270,00 + R$85,00 da matrícula</h2>
+          <h2>Itaipava - R$330,00 + R$85,00 da matrícula</h2>
           <h2>Desconto de 20% para estudantes</h2>
           <button className={styles.button}>Agende sua aula</button>
         </div>
@@ -27,7 +28,8 @@ export default function Vantagem() {
           <h2>(1h / semana)</h2>
           <h2>(a partir dos 12 anos de idade)</h2>
           <h2>Mensalidade:</h2>
-          <h2>R$180,00 + R$85,00 da matrícula</h2>
+          <h2>Centro - R$180,00 + R$85,00 da matrícula</h2>
+          <h2>Itaipava - R$210,00 + R$85,00 da matrícula</h2>
           <h2>Desconto de 10% para estudantes</h2>
           <button className={styles.button}>Agende sua aula</button>
         </div>
