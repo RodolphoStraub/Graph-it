@@ -17,7 +17,7 @@ export default function Computacao() {
             desenvolver profissionalmente nessa área. mergulhe nessa jornada e
             descubra o poder da arte digital.
           </p>
-          <Link href="/computacaografica">
+          <Link href="/Computacao-grafica">
             <button className={styles.button}>clique e saiba mais</button>
           </Link>
         </div>

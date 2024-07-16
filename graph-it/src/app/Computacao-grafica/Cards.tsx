@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import styles from "./Cards.module.css";
 
 export default function Cards() {
@@ -12,31 +12,38 @@ export default function Cards() {
         </h3>
       </div>
       <div className={styles.cards_container}>
-        <Link href="/kids">
+        <Link href="/Design-kids">
           <img
             className={styles.cards}
-            src="/img-graphitkids.png"
+            src="/img-designkids.png"
             alt="criança pintando"
           />
         </Link>
-        <Link href="/art">
+        <Link href="/Ilustracao-digital">
           <img
             className={styles.cards}
-            src="/img-graphitart_alt.png"
+            src="/ilustracao.png"
             alt="desenho"
           />
         </Link>
-        <Link href="/plus">
+        <Link href="/Design-pulicitario">
           <img
             className={styles.cards}
-            src="/img-graphitplus_alt.png"
+            src="/img-design.png"
             alt="pintura"
           />
         </Link>
-        <Link href="/fashion">
+        <Link href="/Edicao-video">
           <img
             className={styles.cards}
-            src="/img-graphitfashion.png"
+            src="/img-video.png"
+            alt="desenho"
+          />
+        </Link>
+        <Link href="/Modelagem-3d">
+          <img
+            className={styles.cards}
+            src="/img-modelagem3d.png"
             alt="desenho"
           />
         </Link>

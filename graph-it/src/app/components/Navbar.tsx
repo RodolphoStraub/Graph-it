@@ -18,7 +18,7 @@ export default function Navbar() {
         ></Image>
           </Link>
           <li>
-            <Link className={styles.bartext} href="/about">
+            <Link className={styles.bartext} href="/Quem-Somos">
               Quem somos
             </Link>
           </li>

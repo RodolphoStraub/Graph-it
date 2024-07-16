@@ -23,7 +23,7 @@ export default function Desenho() {
             da observação, concentração, coordenação motora e resolução de
             problemas visuais.
           </p>
-          <Link href="/desenhoartistico">
+          <Link href="/Desenho-artistico">
             <button className={styles.button}>clique e saiba mais</button>
           </Link>
         </div>

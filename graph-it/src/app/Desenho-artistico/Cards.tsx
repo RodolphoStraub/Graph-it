@@ -12,38 +12,31 @@ export default function Cards() {
         </h3>
       </div>
       <div className={styles.cards_container}>
-        <Link href="/designkids">
+        <Link href="/Kids">
           <img
             className={styles.cards}
-            src="/img-designkids.png"
+            src="/img-graphitkids.png"
             alt="criança pintando"
           />
         </Link>
-        <Link href="/ilustracaodigital">
+        <Link href="/Art">
           <img
             className={styles.cards}
-            src="/ilustracao.png"
+            src="/img-graphitart_alt.png"
             alt="desenho"
           />
         </Link>
-        <Link href="/designpublicitario">
+        <Link href="/Plus">
           <img
             className={styles.cards}
-            src="/img-design.png"
+            src="/img-graphitplus_alt.png"
             alt="pintura"
           />
         </Link>
-        <Link href="/edicaovideo">
+        <Link href="/Fashion">
           <img
             className={styles.cards}
-            src="/img-video.png"
-            alt="desenho"
-          />
-        </Link>
-        <Link href="/modelagem3d">
-          <img
-            className={styles.cards}
-            src="/img-modelagem3d.png"
+            src="/img-graphitfashion.png"
             alt="desenho"
           />
         </Link>
