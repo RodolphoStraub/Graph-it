@@ -22,13 +22,7 @@ export default function RootLayout({
     <>
       <html lang="pt-br">
         <head>
-          <link rel="shortcut icon" href="/favicon/favicon.ico" />
-          <link
-            rel="icon"
-            href="/icon?<generated>"
-            type="image/<generated>"
-            sizes="<generated>"
-          />
+          <link rel="icon" href="/favicon.ico" />
         </head>
         <body className={inter.className}>
           <Navbar />
