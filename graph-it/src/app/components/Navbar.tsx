@@ -23,8 +23,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link className={styles.bartext} href="/#Chooseunit">
-              Unidades
+            <Link className={styles.bartext} href="/#Cursos">
+              Cursos
             </Link>
           </li>
           <li>
