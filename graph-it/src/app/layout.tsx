@@ -22,7 +22,7 @@ export default function RootLayout({
     <>
       <html lang="pt-br">
         <head>
-        <link rel="shortcut icon" href="/favicon.ico"/>
+          <link rel="shortcut icon" href="/icon.ico" />
         </head>
         <body className={inter.className}>
           <Navbar />
