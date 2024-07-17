@@ -20,7 +20,7 @@
   font-weight: 450;
 }
 
-.spam{
+.spam {
   color: #ffc219;
 }
 
@@ -39,7 +39,6 @@
 .embla__container {
   display: flex;
   width: 100vw;
-  
 }
 
 .embla__slide {
@@ -75,7 +74,29 @@
   color: #a27d0d;
 }
 
-.text h2{
+.text h2 {
   font-weight: 250;
   font-style: italic;
+}
+
+@media (max-width: 1440px) {
+  .title_decor {
+    font-size: 32px;
+  }
+
+  .embla__slide {
+    width: 220px;
+  }
+
+  .pic_name img {
+    width: 150px;
+  }
+
+  .pic_name h3 {
+    font-size: 18px;
+  }
+
+  .text {
+    font-size: 13px;
+  }
 }

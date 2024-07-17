@@ -48,3 +48,42 @@
   background-color: black;
   color: #ffc219;
 }
+
+@media (max-width: 1440px) {
+  .all {
+    background-color: rgb(184, 184, 184);
+    padding: 50px 0;
+  }
+
+  .sub_all {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+  }
+
+  .pic {
+    width: 35vw;
+    height: 55vh;
+    border-radius: 10px;
+    margin-top: 60px;
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .context img {
+    width: 300px;
+  }
+
+  .context p {
+    margin-top: 35px;
+    font-size: 21px;
+    text-align: justify;
+    line-height: 25px;
+  }
+
+  .button {
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-size: 19px;
+    margin-top: 45px;
+  }
+}

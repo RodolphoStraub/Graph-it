@@ -1,21 +1,35 @@
-.bg{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffc219;
-    padding: 50px;
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc219;
+  padding: 50px;
 }
 
-.bg h1{
-    font-size: 38px;
-    text-align: center;
-    line-height: 80px;
-    margin-bottom: 50px;
-    color: white;
+.bg h1 {
+  font-size: 38px;
+  text-align: center;
+  line-height: 80px;
+  margin-bottom: 50px;
+  color: white;
 }
 
-.bg img{
-    width: 80px;
-    height: 80px;
+.bg img {
+  width: 80px;
+  height: 80px;
+}
+
+@media (max-width: 1440px) {
+  .bg h1 {
+    width: 70%;
+    font-size: 32px;
+    line-height: 70px;
+    margin-bottom: 40px;
+  }
+
+  .bg img{
+    width: 70px;
+    height: 70px;
+  }
 }

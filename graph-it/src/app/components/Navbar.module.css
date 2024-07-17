@@ -42,3 +42,49 @@
   cursor: pointer;
   transform: scale(1.1);
 }
+
+@media (max-width: 1440px) {
+  .bar {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+
+  .barinter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 120px;
+    margin-left: 15%;
+    list-style: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bar {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+    z-index: 100;
+  }
+
+  .barinter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 120px;
+    margin-left: 15%;
+    list-style: none;
+  }
+}
