@@ -13,7 +13,9 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <div className={styles.all}></div>
+      <div className={styles.all}>
+        <img src="/banner-quem-somos_alt.png" alt="banner " />
+      </div>
       <Text />
       <EmblaCarousel />
       <Evolution />
