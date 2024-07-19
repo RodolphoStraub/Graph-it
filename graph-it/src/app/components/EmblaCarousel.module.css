@@ -100,3 +100,37 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 1024px){
+  .title_decor {
+    font-size: 30px;
+  }
+
+  .embla__container {
+    display: flex;
+    width: 100vw;
+  }
+
+  .embla__slide {
+    width: 150px;
+  }
+
+  .pic_name img {
+    width: 120px;
+  }
+
+  .pic_name h3 {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px){
+  .all{
+    display: flex;
+    flex-direction: column;
+  }
+}

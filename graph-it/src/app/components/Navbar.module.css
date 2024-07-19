@@ -67,24 +67,21 @@
 }
 
 @media (max-width: 1024px) {
-  .bar {
-    background-color: black;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
-    z-index: 100;
+  .bartext {
+    font-size: 22px;
   }
 
-  .barinter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    height: 120px;
-    margin-left: 15%;
-    list-style: none;
+  .logo {
+    width: 135px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bartext {
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 110px;
   }
 }

@@ -101,3 +101,9 @@
   -webkit-transform: rotate(45deg);
   margin-bottom: 6px;
 }
+
+@media (max-width: 1440px) {
+  .all {
+    height: 900px;
+  }
+}

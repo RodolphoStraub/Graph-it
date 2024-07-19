@@ -33,3 +33,30 @@
     height: 70px;
   }
 }
+
+@media (max-width: 1024px){
+  .bg h1 {
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .bg img{
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 768px){
+  .bg h1 {
+    width: 90%;
+    font-size: 26px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .bg img{
+    width: 50px;
+    height: 50px;
+  }
+}

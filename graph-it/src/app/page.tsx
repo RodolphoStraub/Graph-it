@@ -5,13 +5,12 @@ import EmblaCarousel from "./components/EmblaCarousel";
 import Cursos from "./components/Cursos";
 import Desenho from "./components/Desenho";
 import Computacao from "./components/Computacao";
-
-import styles from "./page.module.css";
+import Banner from "./components/Banner";
 
 export default function Home() {
   return (
     <>
-      <div id="/" className={styles.all}></div>
+      <Banner/>
       <Welcome />
       <Cursos />
       <Desenho />

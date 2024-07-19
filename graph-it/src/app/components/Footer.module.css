@@ -1,11 +1,12 @@
 .main_container {
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 .sub_container {
   width: 70%;
-  margin-left: 13%;
+  margin-left: 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +21,6 @@
 }
 
 .unities {
-  margin-left: 78px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -124,6 +124,7 @@
 
   .unity_decor1,
   .unity_decor2 {
+    width: 550px;
     height: 300px;
   }
 
@@ -160,6 +161,7 @@
   }
 
   .about_price {
+    text-align: center;
     margin-top: 40px;
     font-size: 18px;
   }
@@ -167,5 +169,177 @@
   .icons {
     width: 36px;
     height: 36px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .unities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .sub_container {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .unity_decor1 {
+    border-right: none;
+  }
+
+  .title img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    width: 768px;
+    padding: 0;
+    display: flex;
+    border-bottom: #ffc219 1px solid;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    height: 260px;
+  }
+
+  .unity_decor1 h2,
+  .unity_decor2 h2 {
+    font-size: 28px;
+    margin-bottom: 14px;
+  }
+
+  .unity_decor1 h3,
+  .unity_decor2 h3 {
+    width: 70vw;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 14px;
+  }
+
+  .unity_decor1 img,
+  .unity_decor2 img {
+    height: 22px;
+    height: 22px;
+    margin-top: 16px;
+  }
+
+  .sub_unity {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sub_unity h3 {
+    width: 40vw;
+  }
+
+  .about_price {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .container_icons {
+    width: 750px;
+  }
+
+  .icons {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .unities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .sub_container {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .unity_decor1 {
+    border-right: none;
+  }
+
+  .title img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    width: 550px;
+    padding: 0;
+    display: flex;
+    border-bottom: #ffc219 1px solid;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    height: 260px;
+  }
+
+  .unity_decor1 h2,
+  .unity_decor2 h2 {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+
+  .unity_decor1 h3,
+  .unity_decor2 h3 {
+    width: 70vw;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-top: 14px;
+  }
+
+  .unity_decor1 img,
+  .unity_decor2 img {
+    height: 22px;
+    height: 22px;
+    margin-top: 16px;
+  }
+
+  .sub_unity {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sub_unity h3 {
+    width: 40vw;
+  }
+
+  .about_price {
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .container_icons {
+    width: 750px;
+  }
+
+  .icons {
+    width: 32px;
+    height: 32px;
   }
 }

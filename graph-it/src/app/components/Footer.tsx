@@ -17,12 +17,17 @@ export default function Footer() {
             </h3>
             <div className={styles.sub_unity}>
               <div className={styles.inter_unity}>
-                <img src="/phone_icon.svg" alt="icon telefone" />
-                <h3>(24)2231-5610</h3>
+                <h3>
+                  {" "}
+                  <img src="/phone_icon.svg" alt="icon telefone" />
+                  (24)2231-5610
+                </h3>
               </div>
               <div className={styles.inter_unity}>
-                <img src="/whatsapp_icon.svg" alt="icon telefone" />
-                <h3>(24)99220-2214</h3>
+                <h3>
+                  <img src="/whatsapp_icon.svg" alt="icon telefone" />
+                  (24)99220-2214
+                </h3>
               </div>
             </div>
           </div>
@@ -34,12 +39,10 @@ export default function Footer() {
             </h3>
             <div className={styles.sub_unity}>
               <div className={styles.inter_unity}>
-                <img src="/phone_icon.svg" alt="icon telefone" />
-                <h3>(24)2231-5610</h3>
+                <h3><img src="/phone_icon.svg" alt="icon telefone" />(24)2231-5610</h3>
               </div>
               <div className={styles.inter_unity}>
-                <img src="/whatsapp_icon.svg" alt="icon telefone" />
-                <h3>(24)99220-2214</h3>
+                <h3><img src="/whatsapp_icon.svg" alt="icon telefone" />(24)99220-2214</h3>
               </div>
             </div>
           </div>
