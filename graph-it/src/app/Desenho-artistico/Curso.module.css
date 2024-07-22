@@ -2,6 +2,7 @@
   height: 90vh;
   background-image: url(../../../public/bg-desenhoartistico.png);
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: start;
   justify-content: center;
@@ -25,4 +26,64 @@
   line-height: 38px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+@media (max-width: 1440px) {
+  .all {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container {
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 50px;
+  }
+
+  .title {
+    width: 500px;
+    text-align: center;
+  }
+
+  .context {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    margin-left: 40%;
+    margin-top: 50px;
+  }
+
+  .title {
+    width: 350px;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .context {
+    width: 350px;
+    font-size: 22px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 50%;
+    margin-top: 50px;
+  }
+
+  .title {
+    width: 300px;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .context {
+    width: 300px;
+    font-size: 18px;
+    line-height: 35px;
+  }
 }

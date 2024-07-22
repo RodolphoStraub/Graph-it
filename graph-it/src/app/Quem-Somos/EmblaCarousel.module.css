@@ -90,3 +90,59 @@
     text-align: justify;
   }
 }
+
+@media (max-width: 1024px) {
+  .all {
+    height: 850px;
+  }
+
+  .main_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desc {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .embla {
+    width: 100%;
+  }
+
+  .embla__container {
+    width: 800px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .all {
+    height: 800px;
+  }
+
+  .title_decor {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .desc {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .embla {
+    width: 100%;
+  }
+
+  .embla__container {
+    width: 650px;
+    margin-right: 45px;
+
+  }
+
+  .pic img {
+    width: 550px;
+    height: 350px;
+  }
+}

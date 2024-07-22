@@ -9,7 +9,6 @@
 @media (max-width: 1440px) {
   .all img {
     width: 100vw;
-    overflow: hidden;
   }
 }
 
@@ -17,6 +16,5 @@
   .all img {
     height: auto;
     width: 100vw;
-    overflow: hidden;
   }
 }

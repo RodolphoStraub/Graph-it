@@ -107,3 +107,42 @@
     height: 900px;
   }
 }
+
+@media (max-width: 1024px) {
+  .all {
+    height: 1050px;
+  }
+  .descrition{
+    flex-wrap: wrap;
+  }
+
+  .descrition_box{
+    width: 345px;
+  }
+}
+
+@media (max-width: 768px) {
+  .all {
+    height: 1000px;
+  }
+
+  .title_decor{
+    font-size: 36px;
+  }
+
+  .sub_title{
+    font-size: 24px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .descrition{
+    flex-wrap: wrap;
+  }
+
+  .descrition_box{
+    width: 250px;
+  }
+}
