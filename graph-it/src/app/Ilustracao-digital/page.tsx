@@ -14,7 +14,9 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <div className={styles.all}></div>
+      <div className={styles.all}>
+        <img src="/banner-ilustracaodigital.png" alt="banner" />
+      </div>
       <Curso />
       <Ementa />
       <EmblaCarousel />

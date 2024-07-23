@@ -18,7 +18,7 @@ export default function Curso() {
             </p>
           </div>
           <div className={styles.context}>
-            <h2>Aprendizado e Evolução</h2>
+            <h2>Aprendizado</h2>
             <p>
               O campo do design gráfico está em constante evolução devido às
               mudanças nas tecnologias, tendências e demandas do mercado. Isso
@@ -28,7 +28,7 @@ export default function Curso() {
             </p>
           </div>
           <div className={styles.context}>
-            <h2>Mercado de Trabalho</h2>
+            <h2>Mercado</h2>
             <p>
               Com a crescente importância do design visual e da comunicação
               visual em diferentes setores, o mercado de trabalho para designers

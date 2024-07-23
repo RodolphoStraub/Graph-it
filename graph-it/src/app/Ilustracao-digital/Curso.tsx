@@ -7,7 +7,7 @@ export default function Curso() {
         <h1 className={styles.title}>vantagens da Ilustração Digital</h1>
         <div className={styles.text_container}>
           <div className={styles.context}>
-            <h2>Mundo de Ferramentas</h2>
+            <h2>Ferramentas</h2>
             <p>
               A ilustração digital permite que você utilize uma ampla variedade
               de ferramentas específicas para criar ilustrações digitais. Essas
@@ -18,7 +18,7 @@ export default function Curso() {
             </p>
           </div>
           <div className={styles.context}>
-            <h2>Conexão com o Mundo</h2>
+            <h2>O Mundo</h2>
             <p>
               Com a ilustração digital, é fácil compartilhar seu trabalho
               on-line com um público global. Você pode mostrar suas ilustrações
@@ -27,7 +27,7 @@ export default function Curso() {
             </p>
           </div>
           <div className={styles.context}>
-            <h2>Eficiência, Produtividade</h2>
+            <h2>Eficiência</h2>
             <p>
               A ilustração digital oferece recursos que ajudam a acelerar o
               processo de criação. Você pode criar rapidamente esboços digitais,

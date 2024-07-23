@@ -20,7 +20,7 @@ export default function Curso() {
             </p>
           </div>
           <div className={styles.context}>
-            <h2>Mercado de Trabalho</h2>
+            <h2>Mercado</h2>
             <p>
               Com a demanda contínua por conteúdo 3D de alta qualidade, o
               mercado de modelagem e animação 3D está em constante crescimento.

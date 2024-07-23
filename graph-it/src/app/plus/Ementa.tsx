@@ -60,8 +60,8 @@ export default function Ementa() {
           <p>
             Nesta etapa nós vamos aprender sobre anatomia básica do corpo
             humano, proporções, desenho de rosto, mãos e pés, criação de
-            personagens básicos ( heróis, vilões e coadjuvantes), luz e sombra,
-            gestos e poses, anatomia avançada, roupas e acessórios.
+            personagens básicos, luz e sombra, gestos e poses, anatomia
+            avançada, roupas e acessórios.
           </p>
         </div>
         <div className={styles.sub_container6}>

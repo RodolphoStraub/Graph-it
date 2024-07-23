@@ -28,7 +28,7 @@ export default function Curso() {
             </p>
           </div>
           <div className={styles.context}>
-            <h2>Mercado de trabalho</h2>
+            <h2>Mercado</h2>
             <p>
               Profissionais em áreas como marketing, publicidade, produção de
               filmes, televisão e mídias sociais geralmente precisam de

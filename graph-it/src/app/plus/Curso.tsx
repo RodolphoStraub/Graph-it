@@ -7,7 +7,7 @@ export default function Curso() {
         <h1 className={styles.title}>Por que fazer um curso de desenho?</h1>
         <div className={styles.text_container}>
           <div className={styles.context}>
-            <h2>Técnicas e Fundamentos</h2>
+            <h2>Técnicas</h2>
             <p>
               Nosso curso de desenho pode fornecer uma base sólida em técnicas
               de desenho fundamentais como linhas, formas, proporções,
