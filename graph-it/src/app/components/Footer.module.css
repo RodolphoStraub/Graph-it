@@ -343,3 +343,171 @@
     height: 32px;
   }
 }
+
+@media (max-width: 425px) {
+  .title img {
+    width: 200px;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    width: 425px;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    height: 210px;
+  }
+
+  .unity_decor1 h2,
+  .unity_decor2 h2 {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .unity_decor1 h3,
+  .unity_decor2 h3 {
+    width: 80vw;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+  }
+
+  .unity_decor1 img,
+  .unity_decor2 img {
+    height: 18px;
+    height: 18px;
+    margin-top: 16px;
+  }
+
+  .sub_unity h3 {
+    width: 40vw;
+  }
+
+  .about_price {
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .icons {
+    width: 26px;
+    height: 26px;
+  }
+
+  .container_icons {
+    width: 425px;
+  }
+}
+
+@media (max-width: 375px) {
+  .title img {
+    width: 180px;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    width: 425px;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    height: 210px;
+  }
+
+  .unity_decor1 h2,
+  .unity_decor2 h2 {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  .unity_decor1 h3,
+  .unity_decor2 h3 {
+    width: 80vw;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+  }
+
+  .unity_decor1 img,
+  .unity_decor2 img {
+    height: 16px;
+    height: 16px;
+    margin-top: 10px;
+  }
+
+  .sub_unity h3 {
+    width: 40vw;
+  }
+
+  .about_price {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .icons {
+    width: 26px;
+    height: 26px;
+  }
+
+  .container_icons {
+    width: 375px;
+  }
+}
+
+@media (max-width: 375px) {
+  .title img {
+    width: 180px;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    width: 425px;
+  }
+
+  .unity_decor1,
+  .unity_decor2 {
+    height: 210px;
+  }
+
+  .unity_decor1 h2,
+  .unity_decor2 h2 {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  .unity_decor1 h3,
+  .unity_decor2 h3 {
+    width: 80vw;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+  }
+
+  .unity_decor1 img,
+  .unity_decor2 img {
+    height: 16px;
+    height: 16px;
+    margin-top: 10px;
+  }
+
+  .sub_unity h3 {
+    width: 44vw;
+  }
+
+  .about_price {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .icons {
+    width: 24px;
+    height: 24px;
+  }
+
+  .container_icons {
+    width: 320px;
+  }
+}
