@@ -57,3 +57,36 @@
     font-size: 28px;
   }
 }
+
+@media (max-width: 425px) {
+  .all {
+    height: 300px;
+  }
+  .title {
+    font-size: 38px;
+  }
+
+  .sub_title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .sub_title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .sub_title {
+    font-size: 18px;
+  }
+}

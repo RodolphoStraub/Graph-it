@@ -8,6 +8,7 @@
   margin-top: 50px;
   border-bottom: #ffc219 1px solid;
   height: 550px;
+  overflow: hidden;
 }
 
 .title {
@@ -91,7 +92,7 @@
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .container {
     border-bottom: #ffc219 1px solid;
     height: 580px;
@@ -107,7 +108,79 @@
     font-size: 28px;
   }
 
-  .button{
+  .button {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    height: 420px;
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 38px;
+    letter-spacing: 10px;
+  }
+
+  .sub_title {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    height: 420px;
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 32px;
+    letter-spacing: 10px;
+  }
+
+  .sub_title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .button {
+    padding: 8px 18px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    height: 420px;
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 28px;
+    letter-spacing: 8px;
+  }
+
+  .sub_title {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .button {
+    padding: 6px 16px;
+    font-size: 16px;
+    letter-spacing: 4px;
     margin-top: 0px;
   }
 }
