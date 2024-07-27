@@ -133,3 +133,32 @@
     transform: scale(1.02);
   }
 }
+
+@media (max-width: 425px){
+  .title {
+    font-size: 34px;
+  }
+
+  .sub_title {
+    font-size: 32px;
+  }
+
+  .description {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .cards_container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .cards {
+    width: 250px;
+    margin-top: 10px;
+  }
+
+  .cards:hover {
+    transform: scale(1.02);
+  }
+}

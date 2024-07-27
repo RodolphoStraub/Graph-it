@@ -68,8 +68,7 @@ export default function Ementa() {
           <h1>Mundo dos quadrinhos</h1>
           <p>
             No último mundo de nossa jornada, juntaremos tudo que vimos até aqui
-            para contar histórias através de quadrinhos, desde o esboço da
-            narrativa até a finalização e colorização dos quadros.
+            para contar histórias através de quadrinhos.
           </p>
         </div>
       </div>

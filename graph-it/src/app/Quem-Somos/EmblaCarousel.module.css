@@ -146,3 +146,34 @@
     height: 350px;
   }
 }
+
+@media (max-width: 425px){
+  .all {
+    height: auto;
+  }
+
+  .title_decor {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .desc {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .embla {
+    width: 100%;
+  }
+
+  .embla__container {
+    width: 50px;
+    margin-right: 100px;
+
+  }
+
+  .pic img {
+    width: 300px;
+    height: 250px;
+  }
+}

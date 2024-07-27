@@ -71,10 +71,8 @@ export default function Ementa() {
           <h1>Perspectiva</h1>
           <p>
             Nesta etapa você vai aprender sobre ponto de fuga e linha do
-            horizonte, perspectiva paralela (1 ponto de fuga), perspectiva
-            oblíqua (2 pontos de fuga), perspectiva aérea/esgoto (3 pontos de
-            fuga), perspectiva cavaleira, perspectiva do arquiteto e luz e
-            sombra em perspectiva.
+            horizonte, perspectiva paralela, oblíqua, aérea/esgoto, cavaleira,
+            perspectiva do arquiteto e luz e sombra em perspectiva.
           </p>
         </div>
       </div>

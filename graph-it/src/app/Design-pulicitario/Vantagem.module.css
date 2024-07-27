@@ -192,3 +192,43 @@
     margin-bottom: 50px;
   }
 }
+
+@media (max-width: 425px) {
+  .all {
+    height: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vantagens {
+    margin-bottom: 40px;
+  }
+
+  .vantagens h1 {
+    font-size: 28px;
+  }
+
+  .vantagens li {
+    font-size: 18px;
+  }
+
+  .info h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .info h2 {
+    width: 300px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .button {
+    padding: 8px 18px;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+}

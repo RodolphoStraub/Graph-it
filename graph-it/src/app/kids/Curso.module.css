@@ -98,7 +98,7 @@
 }
 
 @media (max-width: 768px) {
-  .all{
+  .all {
     height: auto;
   }
   .container {
@@ -127,5 +127,29 @@
   .context p {
     width: 100%;
     font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .all {
+    height: auto;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .context {
+    width: auto;
+    font-size: 16px;
+  }
+
+  .context h2{
+    text-align: center;
+  }
+
+  .context p {
+    width: auto;
+    font-size: 16px;
   }
 }
