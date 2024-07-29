@@ -26,6 +26,7 @@ export default function Navbar() {
               width={130}
               height={50}
               alt="logo"
+              onClick={toggleNavbar}
             ></Image>
           </Link>
           <div className={styles.navbar}>
@@ -44,8 +45,8 @@ export default function Navbar() {
           <button className={styles.open_nav} onClick={toggleNavbar}>
             {isClick ? (
               <svg
-                width="50px"
-                height="50px"
+                width="40px"
+                height="40px"
                 viewBox="0 0 24.00 24.00"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -141,17 +142,29 @@ export default function Navbar() {
           <div className={styles.hidden_nav}>
             <ul className={styles.barinter2}>
               <li>
-                <Link className={styles.link} href="/Quem-Somos">
+                <Link
+                  className={styles.link}
+                  onClick={toggleNavbar}
+                  href="/Quem-Somos"
+                >
                   Quem somos
                 </Link>
               </li>
               <li>
-                <Link className={styles.link} href="/#Cursos">
+                <Link
+                  className={styles.link}
+                  onClick={toggleNavbar}
+                  href="/#Cursos"
+                >
                   Cursos
                 </Link>
               </li>
               <li>
-                <Link className={styles.link} href="#Footer">
+                <Link
+                  className={styles.link}
+                  onClick={toggleNavbar}
+                  href="#Footer"
+                >
                   Contato
                 </Link>
               </li>
