@@ -59,7 +59,6 @@ export default function Navbar() {
                     height="24.00"
                     rx="0"
                     fill="#000"
-                    strokewidth="0"
                   ></rect>
                 </g>
                 <g
@@ -103,7 +102,6 @@ export default function Navbar() {
                     height="28.80"
                     rx="0"
                     fill="#000"
-                    strokewidth="0"
                   ></rect>
                 </g>
                 <g

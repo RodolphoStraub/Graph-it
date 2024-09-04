@@ -16,7 +16,7 @@ export default function EmblaCarousel() {
     <div className={styles.all}>
       <div className={styles.title}>
         <h1 className={styles.title_decor}>
-          O QUE FALAM DE <spam className={styles.spam}>NÓS</spam>
+          O QUE FALAM DE <span className={styles.spam}>NÓS</span>
         </h1>
       </div>
       <div className={styles.embla} ref={emblaRef}>

@@ -81,7 +81,7 @@ export default function Ementa() {
             Nessa etapa aprenderemos sobre efeitos especiais e como utilizá-los,
             utilizaremos elementos da natureza como o fogo para criar uma cena
             fantástica e realista através de modos de mesclagem e ajustes de
-            cor. Aprenderemos também como utilizar a famosa "tela verde".
+            cor. Aprenderemos também como utilizar a famosa {'"'}tela verde{'"'}.
           </p>
         </div>
         <div className={styles.sub_container6}>

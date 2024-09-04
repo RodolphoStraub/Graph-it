@@ -8,10 +8,10 @@ export default function Welcome() {
       <div className={styles.container}>
         <div className={styles.title}>
           <h1>
-            <spam className={styles.title_color}>B</spam>EM-
+            <span className={styles.title_color}>B</span>EM-
           </h1>
           <h1>
-            <spam className={styles.title_color}>V</spam>INDO
+            <span className={styles.title_color}>V</span>INDO
           </h1>
         </div>
         <h2 className={styles.sub_title}>

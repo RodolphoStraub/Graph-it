@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import styles from "./Cards.module.css";
 
 export default function Cards() {

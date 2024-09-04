@@ -15,12 +15,12 @@ export default function Text() {
               manifestações tradicionais ou digitais.
             </p>
             <p>
-              <spam className={styles.italic}>
+              <span className={styles.italic}>
                 “Pensávamos como seria fantástico, um lugar onde pudéssemos
                 reunir pessoas apaixonadas por arte como nós, ensinar para elas
                 tudo o que sabemos, um lugar onde os alunos pudessem se sentir
                 verdadeiramente em casa.”{" "}
-              </spam>
+              </span>
               Palavras do Sócio fundador Francisco Marques.
             </p>
             <p>

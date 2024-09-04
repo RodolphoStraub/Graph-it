@@ -6,7 +6,7 @@ export default function Evolution() {
       <div className={styles.sub_all}>
         <h1 className={styles.title_decor}>GRAPH-IT</h1>
         <h1 className={styles.title_decor}>
-          <spam className={styles.color}> EVOLUTION</spam>
+          <span className={styles.color}> EVOLUTION</span>
         </h1>
         <h2 className={styles.sub_title}>
           A EVOLUÇÃO DA MARCA AO LONGO DOS ANOS
