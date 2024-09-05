@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 import styles from "./Navbar.module.css";
-import { image } from "@nextui-org/react";
+
 
 export default function Navbar() {
   const [isClick, setisClick] = useState(false);
